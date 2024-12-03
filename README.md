@@ -53,4 +53,5 @@ Ikuti langkah-langkah berikut untuk mempersiapkan program socket:
 
 5. **Pilih Loopback Interface**
    - Di Wireshark, pilih interface **Loopback: lo0** untuk menangkap paket yang dikirim melalui jaringan lokal.
+   ![Diagram Socket](aset/picture1.png)
 
