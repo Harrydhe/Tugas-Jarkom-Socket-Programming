@@ -54,7 +54,7 @@ Ikuti langkah-langkah berikut untuk mempersiapkan program socket:
 5. **Pilih Loopback Interface**
    - Di Wireshark, pilih interface **Loopback: lo0** untuk menangkap paket yang dikirimkan melalui jaringan lokal.
 
-   ![Loopback](https://github.com/Harrydhe/Tugas1-Socket-Programming/raw/main/asset/Picture1.png)
+   ![Loopback](https://github.com/Harrydhe/Tugas1-Socket-Programming/blob/main/assets/gambar1.jpg)
 
 
 6. **Jalankan Aplikasi Server**
