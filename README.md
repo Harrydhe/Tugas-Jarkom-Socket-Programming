@@ -52,6 +52,47 @@ Ikuti langkah-langkah berikut untuk mempersiapkan program socket:
      ```
 
 5. **Pilih Loopback Interface**
-   - Di Wireshark, pilih interface **Loopback: lo0** untuk menangkap paket yang dikirim melalui jaringan lokal.
-   ![Picture1](asset/picture1.png)
+   - Di Wireshark, pilih interface **Loopback: lo0** untuk menangkap paket yang dikirimkan melalui jaringan lokal.
+
+6. **Jalankan Aplikasi Server**
+   - Jalankan aplikasi server dengan perintah berikut:
+     ```bash
+     sudo ./server
+     ```
+
+7. **Jalankan Aplikasi Client**
+   - Jalankan aplikasi client dengan perintah berikut:
+     ```bash
+     sudo ./client
+     ```
+
+8. **Kirim Plaintext ke Server**
+   - Setelah aplikasi client berjalan, kirimkan pesan plaintext ke server. Anda dapat memasukkan teks atau pesan apa pun yang ingin dikirimkan melalui socket ke server.
+
+## Menganalisis Wireshark
+
+Untuk menganalisis paket TCP yang dikirimkan antara client dan server menggunakan Wireshark, ikuti langkah-langkah berikut:
+
+1. **Klik Kanan pada Paket yang Akan Di-stream**
+   - Cari paket yang menggunakan port address **50000**.
+   - Klik kanan pada paket tersebut.
+
+2. **Follow -> TCP Stream**
+   - Pilih opsi `Follow -> TCP Stream` untuk melihat semua paket yang terkait dengan koneksi TCP tersebut.
+
+3. **Tampilkan Hanya Paket yang Di-stream**
+   - Wireshark akan memfilter dan menampilkan hanya paket TCP yang terkait dengan stream tersebut.
+
+4. **Pilih Menu Statistic -> Flow Graph**
+   - Klik menu `Statistic` di bagian atas aplikasi Wireshark.
+   - Pilih opsi `Flow Graph` untuk menampilkan grafik alur TCP.
+
+5. **Tampilkan Hasil Flow Graph TCP**
+   - Di jendela Flow Graph, centang **Limit to display filter**.
+   - Pilih **Flow type: TCP Flows** untuk memvisualisasikan alur paket TCP.
+
+Dengan langkah-langkah di atas, Anda dapat menganalisis alur komunikasi TCP secara mendalam menggunakan Wireshark dan memvisualisasikannya dalam bentuk grafik.
+
+## Struktur Direktori
+
 
