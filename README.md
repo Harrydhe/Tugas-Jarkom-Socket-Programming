@@ -72,6 +72,8 @@ Ikuti langkah-langkah berikut untuk mempersiapkan program socket:
 8. **Kirim Plaintext ke Server**
    - Setelah aplikasi client berjalan, kirimkan pesan plaintext ke server. Anda dapat memasukkan teks atau pesan apa pun yang ingin dikirimkan melalui socket ke server.
 
+    ![plaintext](https://github.com/Harrydhe/Tugas1-Socket-Programming/blob/main/assets/gambar2.jpg)
+
 ## Menganalisis Wireshark
 
 Untuk menganalisis paket TCP yang dikirimkan antara client dan server menggunakan Wireshark, ikuti langkah-langkah berikut:
@@ -83,19 +85,30 @@ Untuk menganalisis paket TCP yang dikirimkan antara client dan server menggunaka
 2. **Follow -> TCP Stream**
    - Pilih opsi `Follow -> TCP Stream` untuk melihat semua paket yang terkait dengan koneksi TCP tersebut.
 
+    ![TCPstream](https://github.com/Harrydhe/Tugas1-Socket-Programming/blob/main/assets/gambar3.jpg)
+
+
 3. **Tampilkan Hanya Paket yang Di-stream**
    - Wireshark akan memfilter dan menampilkan hanya paket TCP yang terkait dengan stream tersebut.
+  
+        ![Tampil](https://github.com/Harrydhe/Tugas1-Socket-Programming/blob/main/assets/gambar4.jpg)
+ 
 
 4. **Pilih Menu Statistic -> Flow Graph**
    - Klik menu `Statistic` di bagian atas aplikasi Wireshark.
    - Pilih opsi `Flow Graph` untuk menampilkan grafik alur TCP.
+  
+      ![Flowgraph](https://github.com/Harrydhe/Tugas1-Socket-Programming/blob/main/assets/gambar5.jpg)
+
 
 5. **Tampilkan Hasil Flow Graph TCP**
    - Di jendela Flow Graph, centang **Limit to display filter**.
    - Pilih **Flow type: TCP Flows** untuk memvisualisasikan alur paket TCP.
+  
+      ![Flowgraph](https://github.com/Harrydhe/Tugas1-Socket-Programming/blob/main/assets/gambar6.jpg)
+
 
 Dengan langkah-langkah di atas, Anda dapat menganalisis alur komunikasi TCP secara mendalam menggunakan Wireshark dan memvisualisasikannya dalam bentuk grafik.
 
-## Struktur Direktori
 
 
